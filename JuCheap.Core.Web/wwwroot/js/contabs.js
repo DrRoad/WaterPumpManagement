@@ -100,7 +100,6 @@ $(function () {
     });
 
     function menuClick() {
-        alert("fsdfsfs")
         var o = $(this).attr("href"),
             m = $(this).data("index"),
             l = $.trim($(this).text()),

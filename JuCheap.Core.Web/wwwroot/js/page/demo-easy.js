@@ -10,8 +10,8 @@
     }
 
     var oPlugin = {
-        iWidth: 600,			// plugin width
-        iHeight: 400			// plugin height
+        iWidth: 1200,			// plugin width
+        iHeight: 800			// plugin height
     };
 
     // 初始化插件参数及插入插件
