@@ -20,5 +20,10 @@ namespace JuCheap.Core.Web.Controllers
         {
             return View();
         }
+        public IActionResult control()
+        {
+            return View();
+        }
+
     }
 }

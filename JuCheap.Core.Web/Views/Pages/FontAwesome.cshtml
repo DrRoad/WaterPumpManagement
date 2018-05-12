@@ -4,13 +4,14 @@
     Layout = "~/Views/Shared/_Layout_Content.cshtml";
 }
 @section styles
-{
+    {
+        <script src="~/js/jquery.js"></script>
 }
-@section scripts
-{
-    
-}
-
+ 
+<div>
+    <input type="button" value="返回按钮" 
+          onclick= "window.location.href = '../Home/Welcome'">
+</div>
 <div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
         <div class="col-sm-12">

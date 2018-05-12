@@ -1,6 +1,20 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout_Content.cshtml";
+
 }
+@section styles{ 
+    <script src="~/js/page/this.js"></script>
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/contabs.js"></script>
+}
+
+<div>
+    <input type="button" value="我是一个按钮" id="jump"
+           onclick="jump()">
+</div>
+
+
+
 <div class="wrapper wrapper-content">
     <div class="row">
         <div class="col-sm-6">

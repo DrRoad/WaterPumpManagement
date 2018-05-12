@@ -1,5 +1,11 @@
 //×Ô¶¨Òåjs
 $(document).ready(function () {
+
+   function jump() {
+        window.frames["jump"].jump("gggg");
+   }
+     //console.log($(".J_iframe"))
+    //$(".J_iframe")[0].contentDocument.body.addEventListener('click', () => { alert(12321312321) })
     // MetsiMenu
     $('#side-menu').metisMenu();
 
